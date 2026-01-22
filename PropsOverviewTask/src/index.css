@@ -1,0 +1,75 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Page background */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6f78d8, #7b63c9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* App wrapper */
+.App {
+  width: 100%;
+  max-width: 900px;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Title */
+.App h1 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+/* Card */
+.card {
+  background: linear-gradient(135deg, #6f7fe0, #7a62c8);
+  border-radius: 18px;
+  padding: 3rem 2rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* Name */
+.name {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* Children text */
+.children {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+/* Avatar */
+.avatar {
+  display: block;
+  margin: 2rem auto 1.5rem;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #111;
+  padding: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Title text */
+.title {
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  opacity: 0.9;
+}
